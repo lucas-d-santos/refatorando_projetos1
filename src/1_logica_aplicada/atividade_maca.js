@@ -4,6 +4,21 @@
 // siga boilerplate (modelo) para realizar o exercicio
 // a funçao precoMaca irá receber um argumento (quantidade)
 
-function precoMaca(quantidade) {}
+
+const varejo = 0.30;
+const atacado = 0.25;
+
+function precoMaca(quantidade) {
+
+    if(quantidade >12) {
+        const totalAtacado= quantidade*atacado;
+        return    totalAtacado 
+            
+        } else {
+            const totalVarejo = quantidade*varejo;
+            return    totalVarejo       
+        }
+}
+precoMaca(12)
 
 module.exports = precoMaca;

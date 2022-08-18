@@ -10,8 +10,15 @@ const permitido = "ACESSO PERMITIDO";
 const negado = "ACESSO NEGADO";
 
 function validaSenha(senha) {  
-//retorne aqui a sua solucao
+
+if (senha == 1234) {
+  return permitido
+} else {
+return negado
+}
 
 }
+
+validaSenha(12356)
 
 module.exports = validaSenha;
