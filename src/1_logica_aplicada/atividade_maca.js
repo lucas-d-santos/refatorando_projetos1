@@ -14,9 +14,7 @@ const calculoDesconto = quantidade*atacado
         console.log(calculoDesconto)
         return calculoDesconto
      }
-     
-     else
-     {
+     else {
         console.log(calculoPreco)
         return calculoPreco
      }

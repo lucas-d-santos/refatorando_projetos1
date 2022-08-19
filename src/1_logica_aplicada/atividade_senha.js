@@ -6,12 +6,22 @@
 
 // siga boilerplate (modelo) para realizar o exercicio
 // a funçao validaSenha irá receber um argumento (senha)
-const permitido = "ACESSO PERMITIDO";
-const negado = "ACESSO NEGADO";
+
 
 function validaSenha(senha) {  
-//retorne aqui a sua solucao
+    const permitido = "ACESSO PERMITIDO";
+    const negado = "ACESSO NEGADO";
+    const senha = 1235
+ if (senha == 1235) 
+ {
+    console.log(permitido)
+    
+ }
+ else {
+    console.log(negado) 
+    
+ }
 
 }
-
+function validaSenha() 
 module.exports = validaSenha;
